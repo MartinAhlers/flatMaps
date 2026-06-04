@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" rx="20" fill="#0d0f12"/>
+  <path d="M 0 80 Q 25 50 50 70 T 100 60 L 100 100 L 0 100 Z" fill="url(#hillGrad1)" opacity="0.8"/>
+  <path d="M 0 90 Q 30 70 60 85 T 100 75 L 100 100 L 0 100 Z" fill="url(#hillGrad2)"/>
+  <path d="M 10 90 Q 30 50 50 65 T 90 60" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="hillGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05c19e"/>
+      <stop offset="100%" stop-color="#0b1b17"/>
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+  </defs>
+</svg>
